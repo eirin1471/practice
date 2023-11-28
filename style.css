@@ -1,0 +1,433 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */ /* 自由に編集してください */
+
+body {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #bbb;
+}
+
+
+.big-menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  gap: 4px;
+  padding-right: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.menu i {
+  font-size: 20px;
+}
+
+.menu p {
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+/* main  */
+
+.first-wrapper {
+ width: 100%;
+}
+
+.first-wrapper h1 {
+  color: #eee;
+  background-color: red;
+  box-shadow: 60px 40px  rgba(255, 113, 181, .3);
+  padding: 20px 32px;
+  width: 80%;
+  height: 120px;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.first-wrapper p {
+  margin: 12px 0 36px;
+  padding: 0 16px;
+  text-align: center; 
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.second-wrapper {
+  
+  text-align: center;
+  background: #eee;
+  padding-bottom: 48px;
+}
+
+.second-wrapper h1 {
+  padding-top: 32px;
+  border-top: 4px dashed red;
+}
+
+.second-wrapper .line {
+  border-bottom: 4px solid red;
+  width: 32px;
+  margin: 8px auto 0;
+}
+
+.second-wrapper .content {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  width: 160px;
+  margin: 20px auto 0;
+  padding-top: 4px;
+}
+
+.second-wrapper .content h2 {
+  margin-top: 12px;
+}
+
+.second-wrapper .content a {
+  display: inline-block;
+  color: white;
+  background: red;
+  margin: 24px 0;
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
+.second-wrapper .content a:hover {
+  cursor: pointer;
+}
+
+.third-wrapper {
+  text-align: center;
+  padding: 189px 32px;
+}
+
+.third-wrapper .line {
+  border-bottom: 4px solid red;
+  width: 32px;
+  margin: 8px auto 0;
+}
+
+.info {
+  margin: 8px 0;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+.info .info-red {
+  background: red;
+  color: #fff;
+  padding: 4px 8px;
+  width: 80px;
+  margin: 4px auto;
+}
+
+.fourth-wrapper {
+  padding-bottom: 32px;
+  background: rgba(255, 113, 181, .08);
+}
+
+.fourth-wrapper  address{
+  margin: 8px 0;
+  padding-left: 24px;
+}
+
+.fourth-wrapper .box {
+  margin-top: 24px;
+  padding-left: 24px;
+}
+
+.fourth-wrapper .box h1 {
+  margin: 16px 0;
+}
+
+.fourth-wrapper .box i {
+  color:red;
+}
+
+.fourth-wrapper .box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fourth-wrapper .box li {
+  margin-top: 8px;
+}
+
+.fourth-wrapper .box a {
+  opacity: .8;
+}
+
+.fourth-wrapper .box a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+footer {
+  padding: 120px 60px;
+  text-align: center;
+  background: rgba(255, 0, 0, .7);
+  color: #fff;
+  line-height: 1.6;
+}
+
+@media(min-width: 1200px) {
+  body {
+    max-width: 800px;
+    width: 100%;
+  }
+
+  /* header */
+
+  header {
+    max-width: 800px;
+    width: 100%;
+  }
+
+  /* main */
+
+  .first-wrapper h1 {
+    font-size: 36px;
+    padding: 32px;
+  }
+
+  .first-wrapper p {
+    font-size: 20px;
+  }
+
+  .second-wrapper h1 {
+    font-size: 24px;
+  }
+
+
+  .second-wrapper .contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 0 64px;
+  }
+
+  .third-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .fourth-wrapper img {
+    max-width: 800px;
+    width: 100%;
+    height: 240px;
+  }
+
+  .fourth-wrapper address {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .fourth-wrapper .info-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0 64px;
+  }
+}
